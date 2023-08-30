@@ -183,13 +183,13 @@ In this task, you will:
 
 1. Within the Remote Desktop session to **AzS-HOST1**, open the web browser window displaying the [Azure Stack Hub administrator portal](https://adminportal.local.azurestack.external/) and sign in as CloudAdmin@azurestack.local.
 1. In the web browser window displaying the Azure Stack Hub administrator portal, click **+ Create a resource**. 
-1. On the **New** blade, click **Data + Storage**.
+1. On the **Create a resource** blade, in the Categories section, click **Data + Storage**.
 1. On the **Data + Storage** blade, click **Storage account**.
 1. On the **Basics** tab of the **Create storage account** blade, specify the following settings:
 
     - Subscription: **Default Provider Subscription**
-    - Resource group: the name of a new resource group **marketplace-pkgs-RG**
-    - Name: a unique name consisting of between 3 and 24 lower case letters or digits
+    - Resource group: Select **Create new**, the name of a new resource group **marketplace-pkgs-RG**, then select **Ok**.
+    - Storage account name: a unique name consisting of between 3 and 24 lower case letters or digits
     - Location: **local**
     - Performance: **Standard**
     - Account kind: **Storage (general purpose v1)**
@@ -202,15 +202,25 @@ In this task, you will:
     >**Note**: Wait until the storage account is provisioned. This should take about one minute.
 
 1. In the web browser window displaying the Azure Stack Hub administrator portal, in the hub menu, select **Resource groups**.
+
 1. On the **Resource group** blade, in the list of resource groups, click the **marketplace-pkgs-RG** entry.
+
 1. On the **marketplace-pkgs-RG** blade, click the entry representing the newly created storage account.
+
 1. On the storage account blade, click **Containers**.
+
 1. On the Containers blade, click **+ Container**.
+
 1. On the **New container** blade, in the **Name** textbox, type **gallerypackages**, in the **Public access level** drop down list, select **Blob (anonymous read access for blobs only)**, and click **Create**.
+
 1. Back on the Containers blade, click the **gallerypackages** entry representing the newly created container.
+
 1. On the **gallerypackages** blade, click **Upload**.
+
 1. On the **Upload blob** blade, click the folder icon next to the **Select a file** text box. 
+
 1. In the **Open** dialog box, navigate to the **C:\Downloads** folder, select the **Contoso.CustomVMWindowsSample.1.0.1.azpkg** package file and click **Open**.
+
 1. Back on the **Upload blob** blade, click **Upload**.
 
 
@@ -221,6 +231,7 @@ In this task, you will:
 - Publish the package to Azure Stack Hub Marketplace.
 
 1. Within the Remote Desktop session to **AzS-HOST1**, start Windows PowerShell as administrator.
+
 1. Within the Remote Desktop session to **AzS-HOST1**, from the **Administrator: Windows PowerShell** prompt, run the following to install the Azure Stack Hub PowerShell modules required for this lab: 
 
     ```powershell
@@ -247,8 +258,11 @@ In this task, you will:
     ```
 
     >**Note**: This will automatically open another browser tab displaying the message informing you about successful authentication.
+    
+    >**Note**: If the sign-in page pop-up displays, by using the following credentials: Username: **CloudAdmin@azurestack.local**, Password: **Pa55w.rd1234**, sign-in.
 
 1. Close the browser tab, switch back to the **Administrator: Windows PowerShell** window and verify that you have successfully authenticated as **CloudAdmin@azurestack.local**.
+
 1. From the Administrator: **Administrator: Windows PowerShell**, run the following to publish the package to Azure Stack Hub Marketplace (where the `<storage_account_name>` placeholder represents the name of the storage account you assigned in the previous task):
 
     ```powershell
@@ -266,8 +280,11 @@ In this task, you will:
 - Verify availability of the published Azure Stack Hub Marketplace item.
 
 1. Within the Remote Desktop session to **AzS-HOST1**, open the web browser window displaying the [Azure Stack Hub user portal](https://portal.local.azurestack.external).
-1. In the web browser window displaying the Azure Stack Hub administrator portal, click **Marketplace**. 
-1. On the **Marketplace** blade, click **Compute** and then click **See More**.
+
+1. In the web browser window displaying the Azure Stack Hub administrator portal, search and select **Marketplace**. 
+
+1. On the **Marketplace** blade, select **Compute** under Categories section, click **See More**.
+
 1. On the **Marketplace** blade, ensure that the **Custom Windows Server 2019 Core VM** appears in the list of choices. 
 
     >**Note**: In order to ensure that the new Azure Stack Hub Marketplace item is functioning as intended, you would also need to ensure that all of the prerequisites for its deployment, such as OS images referenced by its template, are in place. This is beyond the scope of this lab.
