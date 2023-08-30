@@ -85,9 +85,6 @@ In this task, you will:
 
     >**Note**: Disregard any warning messages regarding in-use modules.
 
-1. From the **Administrator: Windows PowerShell** window, run the following to install the PowerShell Az module for Azure Stack Hub:
-
-1. Within the Remote Desktop session to **AzS-HOST1**, start Windows PowerShell as administrator.
 1. Within the Remote Desktop session to **AzS-HOST1**, from the **Administrator: Windows PowerShell** prompt, run the following to install the Azure Stack Hub PowerShell modules required for this lab: 
 
     ```powershell
@@ -148,9 +145,11 @@ In this task, you will:
 
 - Run template validator against an Azure Stack Hub Quickstart template
 
-1. Within the Remote Desktop session to **AzS-HOST1**, start a web browser and navigate to the Azure Stack Hub QuickStart Templates repository [**MySql Server on Windows for AzureStack** page](https://github.com/Azure/AzureStack-QuickStart-Templates/tree/master/mysql-standalone-server-windows). 
+1. Within the Remote Desktop session to **AzS-HOST1**, start a web browser and copy paste this link, [**MySql Server on Windows for AzureStack** page](https://github.com/Azure/AzureStack-QuickStart-Templates/tree/master/mysql-standalone-server-windows). 
+
 1. On the **MySql Server on Windows for AzureStack** page, click **azuredeploy.json**.
 1. On the [AzureStack-QuickStart-Templates/mysql-standalone-server-windows/azuredeploy.json](https://github.com/Azure/AzureStack-QuickStart-Templates/blob/master/mysql-standalone-server-windows/azuredeploy.json) page, review the content of the template.
+
 1. Switch to the **Administrator: Windows PowerShell** window and run the following to download the azuredeploy.json file and save it as a file named **sampletemplate1.json** in the **C:\\Templates** folder.
 
     ```powershell
@@ -198,8 +197,10 @@ In this task, you will:
 
 - Run template validator against an Azure Quickstart template
 
-1. Within the Remote Desktop session to **AzS-HOST1**, from the web browser displaying the AzureStack QuickStart Templates repository, navigate to the Azure QuickStart Templates repository [**MySQL Server 5.6 on Ubuntu VM** page](https://github.com/Azure/azure-quickstart-templates/tree/master/application-workloads/mysql/mysql-standalone-server-ubuntu)
+1. Within the Remote Desktop session to **AzS-HOST1**, On the web browser copy and paste this [**MySQL Server 5.6 on Ubuntu VM** page](https://github.com/Azure/azure-quickstart-templates/tree/master/application-workloads/mysql/mysql-standalone-server-ubuntu)
+
 1. On the **MySQL Server 5.6 on Ubuntu VM** page, click **azuredeploy.json**.
+
 1. On the [azure-quickstart-templates/mysql-standalone-server-ubuntu/azuredeploy.json](https://github.com/Azure/azure-quickstart-templates/blob/master/application-workloads/mysql/mysql-standalone-server-ubuntu/azuredeploy.json) page, review the content of the template.
 1. Switch to the **Administrator: Window PowerShell** window and run the following to download the azuredeploy.json file and save it as a file named **sampletemplate2.json** in the **C:\\Templates** folder.
 
@@ -208,6 +209,7 @@ In this task, you will:
     ```
 
 1. Within the Remote Desktop session to **AzS-HOST1**, in the web browser, navigate to the REST API reference for [Virtual Machines](https://docs.microsoft.com/en-us/rest/api/compute/virtualmachines) and identify the latest Azure API version (**2020-12-01** at the time of authoring this content). 
+
 1. From the **Administrator: Windows PowerShell** window, run the following to open the **sampletemplate2.json** file in Notepad.
 
     ```powershell
@@ -230,7 +232,7 @@ In this task, you will:
 
 1. Set the value of the `apiVersion` key to the latest Azure REST API version for virtual machines you identified earlier in this task and save the change, leaving the file open.
 
-    >**Note**: Record the original value before you make the change. You will need to revert to it in the next task.
+    >**Note**: Record the original value before you make the change. You will need to revert it in the next task.
 
     >**Note**: Assuming the REST API version **2020-12-01**, the change should result in the following outcome:
 
