@@ -5,60 +5,56 @@
     "BaseURL": "https://github.com/CloudLabs-MOC/AZ-600/",
     "Files": [
       {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/AZ-104-MicrosoftAzureAdministrator/prod/Instructions/CloudLabs.AI/LabIntro.md",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/AZ-600/prod/Instructions/Labs/LAB_0201_Manage_Offers_and_Plans.md",
         "Order": 1
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/AZ-600/prod/Instructions/Labs/LAB_0201_Manage_Offers_and_Plans.md",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/AZ-600/prod/Instructions/Labs/LAB_0202_Add_Custom_Marketplace_items.md",
         "Order": 2
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/AZ-600/prod/Instructions/Labs/LAB_0202_Add_Custom_Marketplace_items.md",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/AZ-600/prod/Instructions/Labs/LAB_0203_Validate_ARM_Templates.md",
         "Order": 3
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/AZ-600/prod/Instructions/Labs/LAB_0203_Validate_ARM_Templates.md",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/AZ-600/prod/Instructions/Labs/LAB_0204_Implement_SQL_Server_Resource_Provider.md",
         "Order": 4
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/AZ-600/prod/Instructions/Labs/LAB_0204_Implement_SQL_Server_Resource_Provider.md",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/AZ-600/prod/Instructions/Labs/LAB_0205_Implement_App_Service_Resource_Provider.md",
         "Order": 5
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/AZ-600/prod/Instructions/Labs/LAB_0205_Implement_App_Service_Resource_Provider.md",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/AZ-600/prod/Instructions/Labs/LAB_0401_Delegate_Offer_Management.md",
         "Order": 6
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/AZ-600/prod/Instructions/Labs/LAB_0401_Delegate_Offer_Management.md",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/AZ-600/prod/Instructions/Labs/LAB_0402_Manage_Service_Principals.md",
         "Order": 7
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/AZ-600/prod/Instructions/Labs/LAB_0402_Manage_Service_Principals.md",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/AZ-600/prod/Instructions/Labs/LAB_0501_Connect_via_PowerShell.md",
         "Order": 8
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/AZ-600/prod/Instructions/Labs/LAB_0501_Connect_via_PowerShell.md",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/AZ-600/prod/Instructions/Labs/LAB_0502_Access_the_Privileged_Endpoint.md",
         "Order": 9
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/AZ-600/prod/Instructions/Labs/LAB_0502_Access_the_Privileged_Endpoint.md",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/AZ-600/prod/Instructions/Labs/LAB_0503_Manage_Log_Collection.md",
         "Order": 10
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/AZ-600/prod/Instructions/Labs/LAB_0503_Manage_Log_Collection.md",
+        "RawFilePath": "hhttps://raw.githubusercontent.com/CloudLabs-MOC/AZ-600/prod/Instructions/Labs/LAB_0504_Configure_and_Manage_Storage_Accounts.md",
         "Order": 11
       },
       {
-        "RawFilePath": "hhttps://raw.githubusercontent.com/CloudLabs-MOC/AZ-600/prod/Instructions/Labs/LAB_0504_Configure_and_Manage_Storage_Accounts.md",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/AZ-600/prod/Instructions/Labs/LAB_0505_Manage_Public_IP_Addresses.md",
         "Order": 12
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/AZ-600/prod/Instructions/Labs/LAB_0505_Manage_Public_IP_Addresses.md",
-        "Order": 13
-      },
-      {
         "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/AZ-600/prod/Instructions/Labs/LAB_0506_Configure_Infrastructure_Backup.md",
-        "Order": 14
+        "Order": 13
       }
     ]
   }
